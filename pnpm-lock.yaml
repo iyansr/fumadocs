@@ -39,11 +39,11 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       tsup:
-        specifier: 8.3.5
-        version: 8.3.5(@swc/core@1.10.9)(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
+        specifier: 8.3.6
+        version: 8.3.6(@swc/core@1.10.9(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
       turbo:
-        specifier: 2.3.3
-        version: 2.3.3
+        specifier: 2.3.4
+        version: 2.3.4
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -120,8 +120,8 @@ importers:
         specifier: 15.1.6
         version: 15.1.6(@opentelemetry/api@1.9.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       oxc-transform:
-        specifier: ^0.47.1
-        version: 0.47.1
+        specifier: ^0.48.0
+        version: 0.48.0
       phenomenon:
         specifier: ^1.6.0
         version: 1.6.0
@@ -723,8 +723,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       oxc-transform:
-        specifier: ^0.47.1
-        version: 0.47.1
+        specifier: ^0.48.0
+        version: 0.48.0
       unist-util-visit:
         specifier: ^5.0.0
         version: 5.0.0
@@ -839,7 +839,7 @@ importers:
         version: 6.0.3
       webpack:
         specifier: ^5.97.1
-        version: 5.97.1(@swc/core@1.10.9)(esbuild@0.24.2)
+        version: 5.97.1(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2)
 
   packages/mdx-remote:
     dependencies:
@@ -2272,43 +2272,43 @@ packages:
   '@oramacloud/client@2.1.4':
     resolution: {integrity: sha512-uNPFs4wq/iOPbggCwTkVNbIr64Vfd7ZS/h+cricXVnzXWocjDTfJ3wLL4lr0qiSu41g8z+eCAGBqJ30RO2O4AA==}
 
-  '@oxc-transform/binding-darwin-arm64@0.47.1':
-    resolution: {integrity: sha512-GT56Wkk/M1Eo1HCFfj8PxNn/ssBfxFVIrS3A5lJ6GE2k3gbVRORNzVA1znHtB3Tj4hIvWPNzqh+EQ2bhaFypNQ==}
+  '@oxc-transform/binding-darwin-arm64@0.48.0':
+    resolution: {integrity: sha512-bKgbLuNZaAeyHrhNcsx0whvDETpXrJr34VVUVZcBKETpK1rudQHjcRNeeAg+m9aJcOYVPhhL7KrH1n79CQ7Teg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-transform/binding-darwin-x64@0.47.1':
-    resolution: {integrity: sha512-2lwBMYHouI8Q0wubDCRuK4lMosiA0acsk2ZZzvTzYkn2xNKXtug2+D5UsOxpRLzW1vtIiTEdE5kPaafGPIIcqw==}
+  '@oxc-transform/binding-darwin-x64@0.48.0':
+    resolution: {integrity: sha512-zxJ2Fwf88RiJnte+69Uf4HMtmUAmnjRmG87SMfCjtS5dXMarHadNd/YwYJ4T5weK2EJ8oeUKcUdhEA7G3vkyyA==}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-transform/binding-linux-arm64-gnu@0.47.1':
-    resolution: {integrity: sha512-AvAhryJTpOF0pJdroI0167cmRHDGv2aBBbTjEeNYW5b5KHNvmfeFF1eKT5e8pwj9ygR6DhwXQMIfYOsR2GBzrw==}
+  '@oxc-transform/binding-linux-arm64-gnu@0.48.0':
+    resolution: {integrity: sha512-NG2BbOLGg3EBFt/eWi/mhhpLBCbA33uONt3nd/YYidFKqtx9FAF+IAVRKXls9xxXlAZDMGUrNxXMEsCydIDLRA==}
     cpu: [arm64]
     os: [linux]
 
-  '@oxc-transform/binding-linux-arm64-musl@0.47.1':
-    resolution: {integrity: sha512-b3KDPQeC3yTZXF3vroOD9Mq6QfODxVt8OOeWkufytgOvNyM0NrHhXiiRLBvbNQyf7GfKd82B0l7is6hKuGELwg==}
+  '@oxc-transform/binding-linux-arm64-musl@0.48.0':
+    resolution: {integrity: sha512-hUYRcTTu6OI9asrzt69qZEfd+OHyy0IbgGtoXMVNTpcfse4RFcnYjiO0IudiWfaqp9hYHdZJny02GP1lSLcvcA==}
     cpu: [arm64]
     os: [linux]
 
-  '@oxc-transform/binding-linux-x64-gnu@0.47.1':
-    resolution: {integrity: sha512-bvdPbWnAtfWhQ+hRLtZCeI+mHivHBR4oJL1Zk8HZdo61LEr32XrfTjAOjzoaRqcANKaZv5o9Skyotp71Pf+Xfg==}
+  '@oxc-transform/binding-linux-x64-gnu@0.48.0':
+    resolution: {integrity: sha512-F3QfBWkdbFaEDCn5eiW+teHtwVcbUZ2Zb/Y52qwZtCP2eDS+pjcUtXGtxYgetHo9u4ZWCDh5dmy+WtDgaKd+RA==}
     cpu: [x64]
     os: [linux]
 
-  '@oxc-transform/binding-linux-x64-musl@0.47.1':
-    resolution: {integrity: sha512-E549H+YqzkkvX72QxJechLEAAIseHndrrSWW5lacfCpatZjpTEBoHaMfTf7L3B4Ha/hg/JRZrn/rudYOMJ7ztA==}
+  '@oxc-transform/binding-linux-x64-musl@0.48.0':
+    resolution: {integrity: sha512-VrZTIYuyKHxOZWyzlcT7+xZpI1VT3gOpjbUs9KKyIXwU3Frolo1miMhgoNjbuQeoC6qfrM8gwDtLqFS1RCK3eg==}
     cpu: [x64]
     os: [linux]
 
-  '@oxc-transform/binding-win32-arm64-msvc@0.47.1':
-    resolution: {integrity: sha512-GGbQBBKjIJ3CZ+lnOyPdKdyy1cbazZxTAJWN+EShfXJz+T1gY3BF6U3yhiRAvDefZ2SYLvALi2n4Wz//4vUz6A==}
+  '@oxc-transform/binding-win32-arm64-msvc@0.48.0':
+    resolution: {integrity: sha512-K/P0wNMgR/jp4YTXzgmf0MVrwoxSRhKfomTQYI7/ioB2MHCuoeidlqsy7//t0U6O2xfjEi2bPGtmBepGHvpC3g==}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-transform/binding-win32-x64-msvc@0.47.1':
-    resolution: {integrity: sha512-IVdLjLWknwrhWsWj0f0WTWd3Mfu3a/kjEWwTy0X65udWNxfzpIOVSnauHL7E0lWiatAKmpjS4GacVDPtMdw3GQ==}
+  '@oxc-transform/binding-win32-x64-msvc@0.48.0':
+    resolution: {integrity: sha512-eSLj396AVY9at6SgPdBloh49jEvSTM6XYVnE3Pn5zBQt0m6kKQpTDHBBatTQ7QjKQZYMCd4S+nbm95bdZLjD2g==}
     cpu: [x64]
     os: [win32]
 
@@ -5876,8 +5876,8 @@ packages:
     resolution: {integrity: sha512-qFOyK5PjiWZd+QQIh+1jhdb9LpxTF0qs7Pm8o5QHYZ0M3vKqSqzsZaEB6oWlxZ+q2sJBMI/Ktgd2N5ZwQoRHfg==}
     engines: {node: '>= 0.4'}
 
-  oxc-transform@0.47.1:
-    resolution: {integrity: sha512-krLyXKa+2RWT9MFcj2q4ffEFFzX3EoypcLGpXMhTW0ayLxmGxyiLYlDlwFwP+5fbaVeeBu36XsVroOZelddl7g==}
+  oxc-transform@0.48.0:
+    resolution: {integrity: sha512-S3pLdAcDs9WUAUsqpmtDOIM19Q/SaEJs77e5Iu2Zn+RASK1bMexC8CTSBswSsS42RwPbragTk+o245AYA6ITtQ==}
 
   p-filter@2.1.0:
     resolution: {integrity: sha512-ZBxxZ5sL2HghephhpGAQdoskxplTwr7ICaehZwLIlfL6acuVgZPm8yBNuRAFBGEqtD/hmUeq9eqLg2ys9Xr/yw==}
@@ -6653,9 +6653,6 @@ packages:
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
 
-  tinyexec@0.3.1:
-    resolution: {integrity: sha512-WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==}
-
   tinyexec@0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
 
@@ -6733,8 +6730,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tsup@8.3.5:
-    resolution: {integrity: sha512-Tunf6r6m6tnZsG9GYWndg0z8dEV7fD733VBFzFJ5Vcm1FtlXB8xBD/rtrBi2a3YKEV7hHtxiZtW5EAVADoe1pA==}
+  tsup@8.3.6:
+    resolution: {integrity: sha512-XkVtlDV/58S9Ye0JxUUTcrQk4S+EqlOHKzg6Roa62rdjL1nGWNUstG0xgI4vanHdfIpjP448J8vlN0oK6XOJ5g==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -6757,38 +6754,38 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  turbo-darwin-64@2.3.3:
-    resolution: {integrity: sha512-bxX82xe6du/3rPmm4aCC5RdEilIN99VUld4HkFQuw+mvFg6darNBuQxyWSHZTtc25XgYjQrjsV05888w1grpaA==}
+  turbo-darwin-64@2.3.4:
+    resolution: {integrity: sha512-uOi/cUIGQI7uakZygH+cZQ5D4w+aMLlVCN2KTGot+cmefatps2ZmRRufuHrEM0Rl63opdKD8/JIu+54s25qkfg==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.3.3:
-    resolution: {integrity: sha512-DYbQwa3NsAuWkCUYVzfOUBbSUBVQzH5HWUFy2Kgi3fGjIWVZOFk86ss+xsWu//rlEAfYwEmopigsPYSmW4X15A==}
+  turbo-darwin-arm64@2.3.4:
+    resolution: {integrity: sha512-IIM1Lq5R+EGMtM1YFGl4x8Xkr0MWb4HvyU8N4LNoQ1Be5aycrOE+VVfH+cDg/Q4csn+8bxCOxhRp5KmUflrVTQ==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.3.3:
-    resolution: {integrity: sha512-eHj9OIB0dFaP6BxB88jSuaCLsOQSYWBgmhy2ErCu6D2GG6xW3b6e2UWHl/1Ho9FsTg4uVgo4DB9wGsKa5erjUA==}
+  turbo-linux-64@2.3.4:
+    resolution: {integrity: sha512-1aD2EfR7NfjFXNH3mYU5gybLJEFi2IGOoKwoPLchAFRQ6OEJQj201/oNo9CDL75IIrQo64/NpEgVyZtoPlfhfA==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.3.3:
-    resolution: {integrity: sha512-NmDE/NjZoDj1UWBhMtOPmqFLEBKhzGS61KObfrDEbXvU3lekwHeoPvAMfcovzswzch+kN2DrtbNIlz+/rp8OCg==}
+  turbo-linux-arm64@2.3.4:
+    resolution: {integrity: sha512-MxTpdKwxCaA5IlybPxgGLu54fT2svdqTIxRd0TQmpRJIjM0s4kbM+7YiLk0mOh6dGqlWPUsxz/A0Mkn8Xr5o7Q==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.3.3:
-    resolution: {integrity: sha512-O2+BS4QqjK3dOERscXqv7N2GXNcqHr9hXumkMxDj/oGx9oCatIwnnwx34UmzodloSnJpgSqjl8iRWiY65SmYoQ==}
+  turbo-windows-64@2.3.4:
+    resolution: {integrity: sha512-yyCrWqcRGu1AOOlrYzRnizEtdkqi+qKP0MW9dbk9OsMDXaOI5jlWtTY/AtWMkLw/czVJ7yS9Ex1vi9DB6YsFvw==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.3.3:
-    resolution: {integrity: sha512-dW4ZK1r6XLPNYLIKjC4o87HxYidtRRcBeo/hZ9Wng2XM/MqqYkAyzJXJGgRMsc0MMEN9z4+ZIfnSNBrA0b08ag==}
+  turbo-windows-arm64@2.3.4:
+    resolution: {integrity: sha512-PggC3qH+njPfn1PDVwKrQvvQby8X09ufbqZ2Ha4uSu+5TvPorHHkAbZVHKYj2Y+tvVzxRzi4Sv6NdHXBS9Be5w==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.3.3:
-    resolution: {integrity: sha512-DUHWQAcC8BTiUZDRzAYGvpSpGLiaOQPfYXlCieQbwUvmml/LRGIe3raKdrOPOoiX0DYlzxs2nH6BoWJoZrj8hA==}
+  turbo@2.3.4:
+    resolution: {integrity: sha512-1kiLO5C0Okh5ay1DbHsxkPsw9Sjsbjzm6cF85CpWjR0BIyBFNDbKqtUyqGADRS1dbbZoQanJZVj4MS5kk8J42Q==}
     hasBin: true
 
   twoslash-protocol@0.2.12:
@@ -7267,7 +7264,7 @@ snapshots:
   '@antfu/install-pkg@0.4.1':
     dependencies:
       package-manager-detector: 0.2.8
-      tinyexec: 0.3.1
+      tinyexec: 0.3.2
 
   '@antfu/utils@0.7.10': {}
 
@@ -8292,28 +8289,28 @@ snapshots:
       '@orama/orama': 3.0.2
       lodash: 4.17.21
 
-  '@oxc-transform/binding-darwin-arm64@0.47.1':
+  '@oxc-transform/binding-darwin-arm64@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-darwin-x64@0.47.1':
+  '@oxc-transform/binding-darwin-x64@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-linux-arm64-gnu@0.47.1':
+  '@oxc-transform/binding-linux-arm64-gnu@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-linux-arm64-musl@0.47.1':
+  '@oxc-transform/binding-linux-arm64-musl@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-linux-x64-gnu@0.47.1':
+  '@oxc-transform/binding-linux-x64-gnu@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-linux-x64-musl@0.47.1':
+  '@oxc-transform/binding-linux-x64-musl@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-win32-arm64-msvc@0.47.1':
+  '@oxc-transform/binding-win32-arm64-msvc@0.48.0':
     optional: true
 
-  '@oxc-transform/binding-win32-x64-msvc@0.47.1':
+  '@oxc-transform/binding-win32-x64-msvc@0.48.0':
     optional: true
 
   '@parcel/watcher-android-arm64@2.5.0':
@@ -9318,7 +9315,7 @@ snapshots:
       '@swc/core-win32-x64-msvc': 1.10.7
       '@swc/helpers': 0.5.15
 
-  '@swc/core@1.10.9':
+  '@swc/core@1.10.9(@swc/helpers@0.5.15)':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.17
@@ -9333,6 +9330,7 @@ snapshots:
       '@swc/core-win32-arm64-msvc': 1.10.9
       '@swc/core-win32-ia32-msvc': 1.10.9
       '@swc/core-win32-x64-msvc': 1.10.9
+      '@swc/helpers': 0.5.15
     optional: true
 
   '@swc/counter@0.1.3': {}
@@ -12681,16 +12679,16 @@ snapshots:
       object-keys: 1.1.1
       safe-push-apply: 1.0.0
 
-  oxc-transform@0.47.1:
+  oxc-transform@0.48.0:
     optionalDependencies:
-      '@oxc-transform/binding-darwin-arm64': 0.47.1
-      '@oxc-transform/binding-darwin-x64': 0.47.1
-      '@oxc-transform/binding-linux-arm64-gnu': 0.47.1
-      '@oxc-transform/binding-linux-arm64-musl': 0.47.1
-      '@oxc-transform/binding-linux-x64-gnu': 0.47.1
-      '@oxc-transform/binding-linux-x64-musl': 0.47.1
-      '@oxc-transform/binding-win32-arm64-msvc': 0.47.1
-      '@oxc-transform/binding-win32-x64-msvc': 0.47.1
+      '@oxc-transform/binding-darwin-arm64': 0.48.0
+      '@oxc-transform/binding-darwin-x64': 0.48.0
+      '@oxc-transform/binding-linux-arm64-gnu': 0.48.0
+      '@oxc-transform/binding-linux-arm64-musl': 0.48.0
+      '@oxc-transform/binding-linux-x64-gnu': 0.48.0
+      '@oxc-transform/binding-linux-x64-musl': 0.48.0
+      '@oxc-transform/binding-win32-arm64-msvc': 0.48.0
+      '@oxc-transform/binding-win32-x64-msvc': 0.48.0
 
   p-filter@2.1.0:
     dependencies:
@@ -13599,16 +13597,16 @@ snapshots:
 
   term-size@2.2.1: {}
 
-  terser-webpack-plugin@5.3.10(@swc/core@1.10.9)(esbuild@0.24.2)(webpack@5.97.1(@swc/core@1.10.9)(esbuild@0.24.2)):
+  terser-webpack-plugin@5.3.10(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2)(webpack@5.97.1(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
       terser: 5.37.0
-      webpack: 5.97.1(@swc/core@1.10.9)(esbuild@0.24.2)
+      webpack: 5.97.1(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2)
     optionalDependencies:
-      '@swc/core': 1.10.9
+      '@swc/core': 1.10.9(@swc/helpers@0.5.15)
       esbuild: 0.24.2
 
   terser@5.37.0:
@@ -13627,8 +13625,6 @@ snapshots:
       any-promise: 1.3.0
 
   tinybench@2.9.0: {}
-
-  tinyexec@0.3.1: {}
 
   tinyexec@0.3.2: {}
 
@@ -13695,7 +13691,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.3.5(@swc/core@1.10.9)(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0):
+  tsup@8.3.6(@swc/core@1.10.9(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.24.2)
       cac: 6.7.14
@@ -13707,14 +13703,14 @@ snapshots:
       picocolors: 1.1.1
       postcss-load-config: 6.0.1(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(yaml@2.7.0)
       resolve-from: 5.0.0
-      rollup: 4.30.1
+      rollup: 4.31.0
       source-map: 0.8.0-beta.0
       sucrase: 3.35.0
-      tinyexec: 0.3.1
+      tinyexec: 0.3.2
       tinyglobby: 0.2.10
       tree-kill: 1.2.2
     optionalDependencies:
-      '@swc/core': 1.10.9
+      '@swc/core': 1.10.9(@swc/helpers@0.5.15)
       postcss: 8.5.1
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -13730,32 +13726,32 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  turbo-darwin-64@2.3.3:
+  turbo-darwin-64@2.3.4:
     optional: true
 
-  turbo-darwin-arm64@2.3.3:
+  turbo-darwin-arm64@2.3.4:
     optional: true
 
-  turbo-linux-64@2.3.3:
+  turbo-linux-64@2.3.4:
     optional: true
 
-  turbo-linux-arm64@2.3.3:
+  turbo-linux-arm64@2.3.4:
     optional: true
 
-  turbo-windows-64@2.3.3:
+  turbo-windows-64@2.3.4:
     optional: true
 
-  turbo-windows-arm64@2.3.3:
+  turbo-windows-arm64@2.3.4:
     optional: true
 
-  turbo@2.3.3:
+  turbo@2.3.4:
     optionalDependencies:
-      turbo-darwin-64: 2.3.3
-      turbo-darwin-arm64: 2.3.3
-      turbo-linux-64: 2.3.3
-      turbo-linux-arm64: 2.3.3
-      turbo-windows-64: 2.3.3
-      turbo-windows-arm64: 2.3.3
+      turbo-darwin-64: 2.3.4
+      turbo-darwin-arm64: 2.3.4
+      turbo-linux-64: 2.3.4
+      turbo-linux-arm64: 2.3.4
+      turbo-windows-64: 2.3.4
+      turbo-windows-arm64: 2.3.4
 
   twoslash-protocol@0.2.12: {}
 
@@ -14070,7 +14066,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.97.1(@swc/core@1.10.9)(esbuild@0.24.2):
+  webpack@5.97.1(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.6
@@ -14092,7 +14088,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(@swc/core@1.10.9)(esbuild@0.24.2)(webpack@5.97.1(@swc/core@1.10.9)(esbuild@0.24.2))
+      terser-webpack-plugin: 5.3.10(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2)(webpack@5.97.1(@swc/core@1.10.9(@swc/helpers@0.5.15))(esbuild@0.24.2))
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
